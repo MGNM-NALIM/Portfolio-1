@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+            <html lang="en">
+              <head>
+                <meta charset="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>MOHAMED NALIM</title>
+                <link rel="stylesheet" href="style.css" />
+                <link rel="stylesheet" href="mediaqueries.css" />
+                <link rel="icon" type="image/png" href="./assets/profile-pic.png">
+              </head>
+
+
+
+
+
+            <!-- ########################################################################        BODY         ################################################################################# -->
+              <body>
+                
+                <nav id="desktop-nav" style="background-color: black; color: rgb(255, 255, 255); position: fixed; top: 0; width: 100%; z-index: 100; height: 7vh;">
+                  <div class="logo">MOHAMED NALIM</div>
+                  <div>
+                    <ul class="nav-links">
+                      <li><a href="#about" style="color: white; font-weight: normal; font-size: 17px;" onmouseover="this.style.fontWeight='bold'; this.style.fontSize='20px'" onmouseout="this.style.fontWeight='normal'; this.style.fontSize='14px'">About</a></li>
+                      <li><a href="#skills" style="color: white; font-weight: normal; font-size: 17px;" onmouseover="this.style.fontWeight='bold'; this.style.fontSize='20px'" onmouseout="this.style.fontWeight='normal'; this.style.fontSize='14px'">Skills</a></li>
+                      <li><a href="#experience" style="color: white; font-weight: normal; font-size: 17px;" onmouseover="this.style.fontWeight='bold'; this.style.fontSize='20px'" onmouseout="this.style.fontWeight='normal'; this.style.fontSize='14px'">Experience</a></li>
+                      <li><a href="#education" style="color: white; font-weight: normal; font-size: 17px;" onmouseover="this.style.fontWeight='bold'; this.style.fontSize='20px'" onmouseout="this.style.fontWeight='normal'; this.style.fontSize='14px'">Education</a></li>
+                      <li><a href="#projects" style="color: white; font-weight: normal; font-size: 17px;" onmouseover="this.style.fontWeight='bold'; this.style.fontSize='20px'" onmouseout="this.style.fontWeight='normal'; this.style.fontSize='14px'">Projects</a></li>
+                      <li><a href="#publications" style="color: white; font-weight: normal; font-size: 17px;" onmouseover="this.style.fontWeight='bold'; this.style.fontSize='20px'" onmouseout="this.style.fontWeight='normal'; this.style.fontSize='14px'">Publications</a></li>
+                      <li><a href="#contact" style="color: white; font-weight: normal; font-size: 17px;" onmouseover="this.style.fontWeight='bold'; this.style.fontSize='20px'" onmouseout="this.style.fontWeight='normal'; this.style.fontSize='14px'">Contact</a></li>
+                    </ul>
+                  </div>
+                </nav>
+                <nav id="hamburger-nav" style="background-color: black; color: white; position: fixed; top: 0; width: 100%; z-index: 1000; height: 7vh;">
+                  <div class="logo" style="font-size: medium;">Mohamed Nalim</div>
+                  <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                      <span style="background-color: white;"></span>
+                      <span style="background-color: white;"></span>
+                      <span style="background-color: white;"></span>
+                    </div>
+                    <div class="menu-links">
+                      <li><a href="#about" onclick="toggleMenu()" style="color: black; font-size: medium;">About</a></li>
+                      <li><a href="#experience" onclick="toggleMenu()" style="color: black; font-size: medium;">Experience</a></li>
+                      <li><a href="#education" onclick="toggleMenu()" style="color: black; font-size: medium;">Education</a></li>
+                      <li><a href="#projects" onclick="toggleMenu()" style="color: black; font-size: medium;">Projects</a></li>
+                      <li><a href="#publications" onclick="toggleMenu()" style="color: black; font-size: medium;">Publications</a></li>
+                      <li><a href="#skills" onclick="toggleMenu()" style="color: black; font-size: medium;">Skills</a></li>
+                      <li><a href="#certfications" onclick="toggleMenu()" style="color: black; font-size: medium;">Certfications</a></li>
+                      <li><a href="#achievements" onclick="toggleMenu()" style="color: black; font-size: medium;">Achievements</a></li>
+                      <li><a href="#contact" onclick="toggleMenu()" style="color: black; font-size: medium;">Contact</a></li>
+                    </div>
+                  </div>
+                </nav>
+                <!-- <div id="news-bar" style="background-color: lightgrey; color: #000; position: fixed; top: 7vh; width: 100%; z-index: 100; height: 3vh; text-align: center; font-size: 16px; overflow: hidden;">
+                  <p><strong>Latest Update:</strong> Conference paper "Assistive Feeding System: Design and Evaluation" accepted to International Conference of Robotics and Automation in Industry (ICRAI) 2024</p>
+                </div> -->
+
+
+
+
+
+
+            <!-- ########################################################################        Profile         ################################################################################### -->
+            <div class="bubbles-container"></div>
+            <section id="profile" style="margin-top: 50px;">
+              <div class="section__pic-container">
+                <img src="./assets/profile-pic.png" alt="Mohamed Nalim profile picture" />
+              </div>
+              <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Mohamed Nalim</h1>
+                <p class="section__text__p2">Mechatronics & Robotics Engineer</p>
+                <div class="btn-container">
+                  <button class="btn btn-color-2" onclick="window.open('./assets/Nalim - Resume.pdf')">
+                    Download CV
+                  </button>
+                  <button class="btn btn-color-2" onclick="location.href='#contact'">
+                    Contact Info
+                  </button>
+                </div>
+                <div id="socials-container">
+                  <img
+                    src="./assets/linkedin.png"
+                    alt="My LinkedIn profile"
+                    class="icon"
+                    onclick="window.open('https://www.linkedin.com/in/mohamed-nalim/', '_blank')"
+                  />
+                  <img
+                    src="./assets/github.png"
+                    alt="My Github profile"
+                    class="icon"
+                    onclick="window.open('https://github.com/MGNM-NALIM', '_blank')"
+                  />
+                </div>
+              </div>
+            </section>
+            <hr style="border-top: 1px solid black; width: 100%; margin-top: 120px; margin-bottom: 0px;">
+            
+
+
+
+
+
+
+
+
+            <!-- ########################################################################        About         ################################################################################### -->
+            <section id="about">
+              <div style="margin-top: 120px;">
+                <h1 class="title">About Me</h1>
+                <p class="section__text__p1" style="margin-top: 0;">Curious about me? Let's dive in!</p>
+              </div>
+              <div class="section-container" style="margin-top: 200px;">
+                <div class="section__pic-container">
+                  <img
+                    src="./assets/who am i.png"
+                    alt="Profile picture"
+                    class="about-pic"
+                  />
+                </div>
+                <div class="about-details-container">
+                  <div class="about-containers">
+                    <div class="details-container" style="display: flex; flex-direction: column; align-items: center;" >
+                      <img
+                        src="./assets/experience.png"
+                        alt="Passion icon"
+                        class="icon"
+                      />
+                      <h3>Passion</h3>
+                      <p>R&D <br />Robotics & Automation <br />Mechanical Design</p>
+                    </div>
+                    <div class="details-container" style="display: flex; flex-direction: column; align-items: center;">
+                      <img
+                        src="./assets/education.png"
+                        alt="Education icon"
+                        class="icon"
+                      />
+                      <h3>Education</h3>
+                      <p>BEng. Mechatronics Engineering</p>
+                    </div>
+                  </div>
+                  <ul style="padding-left: 20px; margin-top: 60px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                  <div class="text-container">
+                    <p style="text-align: center; margin-bottom: 20px;">
+                      My journey into <strong>engineering and robotics</strong> was not planned—it was a <strong>series of unexpected turns</strong> that shaped me into who I am today.
+                    </p>
+                    <p style="text-align: center; margin-bottom: 20px;">
+                      I wasn't the most studious student in Sri Lanka. During my <strong>GCE O/Levels</strong>, 
+                      I only studied before exams and had no clear academic direction. 
+                      I liked <strong>math</strong>, but I didn't even know what subjects were in the <strong>Physical Science stream</strong> for A/Levels. 
+                      Moving into a <strong>hostel for A/Levels</strong> changed things. After a year of fun, I got serious, worked hard, and 
+                      secured <strong>good results</strong>. My goal was simple—<strong>get into a government university</strong>—<strong>but instead</strong>, I received the <strong>Allama Iqbal Scholarship (100%)</strong> to study in <strong>Pakistan</strong>.
+                    </p>
+                    <p style="text-align: center; margin-bottom: 20px;">
+                      At that time, I didn't even knew about scholarships like this! I had to choose an engineering field, 
+                      but with no prior knowledge, I picked one <strong>randomly</strong>. 
+                      That's how I ended up in <strong>Mechatronics Engineering</strong> at <strong>NUST</strong>, one of Pakistan's top universities.
+                    </p>
+                    <p style="text-align: center; margin-bottom: 20px;">
+                      And that's where <strong>everything changed!</strong>
+                    </p>
+                    <p style="text-align: center; margin-bottom: 20px;">
+                      At NUST, I found my true passion—<strong>robotics</strong>, <strong>automation</strong>, and <strong>system design</strong>. 
+                      I was drawn to <strong>hands-on projects, product development</strong>, and <strong>real-world problem-solving</strong>. 
+                      While theory classes often felt repetitive, I thrived in <strong>practical work, research</strong>, and <strong>competitions</strong>. 
+                      From working on Modular Self-Reconfigurable Robots <strong>(MSRR)</strong> to designing motor driver circuits, PCB layouts, and embedded systems, 
+                      I built my expertise across multiple domains.
+                    </p>
+                    <p style="text-align: center; margin-bottom: 20px;">
+                      I explored <strong>robotics clubs, hackathons</strong>, and <strong>technical societies</strong>, becoming part of the <strong>SolidWorks 
+                      User Group</strong> and contributing to <strong>(UGV)</strong> development. 
+                      My interest in <strong>space and R&D</strong> led me to work on a <strong>Chinese lunar project (FLI-ME)</strong>, 
+                      where I played a key role in the <strong>mechanical design</strong> of a part of moon rover system. These experiences pushed me beyond academics, 
+                      shaping me into someone who enjoys tackling <strong>complex engineering challenges</strong>.
+                    </p>
+                    <p style="text-align: center; margin-bottom: 20px;">
+                      Now, I <strong>specialize</strong> in <strong>robotics, automation</strong>, and <strong>product design</strong>, with strong skills in <strong>CAD modeling, 
+                      embedded systems</strong>, and <strong>prototyping</strong>. I'm always looking for <strong>cutting-edge projects</strong>, 
+                      especially in <strong>space technology</strong> and <strong>modular robotics</strong>. My <strong>goal</strong> is to contribute to innovative <strong>R&D</strong>, 
+                      where I can push boundaries and create real impact.
+                    </p>
+                    <p style="text-align: center; margin-bottom: 20px;">
+                      From a student who once made <strong>random choices</strong>, I've become an engineer who <strong>chooses challenges with confidence</strong>. And I'm just getting started.
+                    </p>
+                    <p style="text-align: center; margin-bottom: 20px;">
+                      <strong>This is just the Beginning!</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+                <hr style="border-top: 1px solid black; width: 100%; margin-top: 300px; margin-bottom: 0px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+            <!-- ########################################################################        SKILLS         ################################################################################### -->
+            <section id="skills">
+              <div style="margin-top: 150px;">
+                <h1 class="title">Skills</h1>
+                <p class="section__text__p1">Bridging ideas and execution with the right skills!</p>
+              </div>
+              <div class="experience-details-container" style="display: flex; flex-direction: column; gap: 500px;">
+                
+                <div class="about-containers">
+                    <div class="details-container" style="display: flex; flex-direction: column; align-items: center; width: 30%;">
+                    <ul style="padding-left: 20px; margin-top: 30px;max-width: 75%;">
+                      <li style="text-align: left;"><strong>Robotics & Controls:</strong> <span style="color: rgb(47, 155, 102);">Intermediate</span> - Copelia Sim, LAB View, Linux | <span style="color: rgb(47, 155, 102);">Beginner</span> - ROS2</li>
+                      <ul style="padding-left: 20px; margin-top: 10px;max-width: 95%;">
+                        <p style="text-align: left;"> </li>
+                      </ul>
+                      <li style="text-align: left;"><strong>CAD & Design:</strong> <span style="color: rgb(47, 155, 102);">Expert</span> - SolidWorks | <span style="color: rgb(47, 155, 102);">Advanced</span> - AutoCAD, PCB Design | <span style="color: rgb(47, 155, 102);">Intermediate</span> - Altium Designer</li>
+                      <ul style="padding-left: 20px; margin-top: 10px;max-width: 95%;">
+                        <p style="text-align: left;"> </li>
+                      </ul>
+                      <li style="text-align: left;"><strong>Simulation and Analysis:</strong> <span style="color: rgb(47, 155, 102);">Advanced</span> - Proteus | <span style="color: rgb(47, 155, 102);">Intermediate</span> - CNC, Ansys, FEA</li>
+                      <ul style="padding-left: 20px; margin-top: 10px;max-width: 95%;">
+                        <p style="text-align: left;"> </li>
+                      </ul>
+                      <li style="text-align: left;"><strong>Programming:</strong> <span style="color: rgb(47, 155, 102);">Advanced</span> - C++, Python, C | <span style="color: rgb(47, 155, 102);">Intermediate</span> - Assembly, DS & OOP, MATLAB | <span style="color: rgb(47, 155, 102);">Beginner</span> - Verilog</li>
+                      <ul style="padding-left: 20px; margin-top: 10px;max-width: 95%;">
+                        <p style="text-align: left;"> </li>
+                      </ul>
+                      <li style="text-align: left;"><strong>Software & Development:</strong> <span style="color: rgb(47, 155, 102);">Intermediate</span> - VS Code, ModelSim, Keil, Git | <span style="color: rgb(47, 155, 102);">Beginner</span> - Machine Learning</li>
+                      <ul style="padding-left: 20px; margin-top: 10px;max-width: 95%;">
+                        <p style="text-align: left;"> </li>
+                      </ul>
+                      <li style="text-align: left;"><strong>General Productivity and Editing:</strong> <span style="color: rgb(47, 155, 102);">Advanced</span> - MS Office, Editing</li>
+                      <ul style="padding-left: 20px; margin-top: 10px;max-width: 95%;">
+                        <p style="text-align: left;"> </li>
+                      </ul>
+                      <li style="text-align: left;"><strong>Soft Skills:</strong> Project Management, Leadership, Communication, Innovative, Analytical</li>
+                      <ul style="padding-left: 20px; margin-top: 10px;max-width: 95%;">
+                        <p style="text-align: left;"> </li>
+                      </ul>
+                      <li style="text-align: left;"><strong>Languages:</strong> <span style="color: rgb(47, 155, 102);">Native</span> - Tamil | <span style="color: rgb(47, 155, 102);">Advanced</span> - English | <span style="color: rgb(47, 155, 102);">Intermediate</span> - Urdu, Sinhala</li>
+                      <ul style="padding-left: 20px; margin-top: 10px;max-width: 95%;">
+                        <p style="text-align: left;"> </li>
+                      </ul>
+                    </ul>  
+                  </div>
+                </div>
+                
+              </div>
+            </section>
+              <div style="text-align: center; margin-top: -100px;">
+                <a target="_blank">
+                  <img src="./assets/skills logos.png" alt="Skills Logos" class="icon" style="width: 1000px; height: 200px;" />
+                </a>
+              </div>
+            <hr style="border-top: 1px solid black; width: 100%; margin-top: 120px; margin-bottom: 0px;">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- ########################################################################        Experience         ################################################################################### -->
+                <section id="experience">
+                  <div style="margin-top: 120px;">
+                    <h1 class="title">Experience</h1>
+                    <p class="section__text__p1">Every experience, whether a triumph or a lesson, is a valuable treasure.</p>
+                  </div>
+                  <div class="experience-details-container" style="display: flex; flex-direction: column; gap: 20px;">
+                    
+                    <!-- Cowlar Design Studio - Team Lead -->
+                    <div class="about-containers">
+                        <div class="details-container" style="display: flex; flex-direction: column; align-items: center; width: 48%;">
+                          <a href="https://www.squ.edu.om/" target="_blank">
+                            <img src="./assets/squ logo.png" alt="SQU" class="icon" style="width: 150px; height: 130px;" />
+                          </a>
+                        <h2 class="experience-sub-title" style="margin-bottom: 0;">Team Lead, Mechanical Design</h2>
+                        <p style="margin-top: 0;">Research Internship (Remote)<br>[Jun 24 - Sep 24]</p>
+                        <ul style="padding-left: 20px; margin-top: 30px;max-width: 75%;">
+                          <li style="text-align: left;">Collaborated with <strong>SQU</strong> (Oman), <strong>NUST</strong> (Pakistan), <strong>Lunar Vision</strong> (Japan), <strong>CNSA</strong> (China)</li>
+                          <li style="text-align: left;"><strong>Led</strong> a team of 2 engineers in <strong>designing</strong> the complete <strong>mechanical system</strong> for the <strong>FLI-ME</strong> (Flying Imagers for Moon Exploration) payload, 
+                            ensuring it fit within a <strong>compact</strong> 300x300x150 mm enclosure in its rest position.</li>
+                          <li style="text-align: left;">Devised a <strong>spring-loaded ejection mechanism</strong> with a rack & pinion system, spring motor, and one-way clutch bearing, along with a dual
+                            axis <strong>(±70°)</strong> azimuth & elevation control system for precise targeting <strong>(upto 100m)</strong> and stabilization. </li>
+                          <li style="text-align: left;">Conducted trajectory analysis and impact dynamics optimization for successful deployment, imaging, & data transmission, and 
+                            <strong>co-authored</strong> a peer-reviewed <strong>research paper (IAC-24,A3,IP,212,x83782)</strong> at <strong>75th IAC</strong> in Milan, Italy on this project. </li>
+                        </ul>  
+                      </div>
+                    </div>
+                    
+                    <!-- Cowlar Design Studio - Embedded Engineer -->
+                    <div class="about-containers">
+                      <div class="details-container" style="display: flex; flex-direction: column; align-items: center;">
+                        <a href="https://photomath.com/" target="_blank">
+                          <img src="./assets/photomath logo.png" alt="Photomath" class="icon" style="width: 230px; height: 130px;" />
+                        </a>
+                        <h2 class="experience-sub-title" style="margin-bottom: 0;">Math Expert Solver | Reviewer</h2>
+                        <p style="margin-top: 0;">Freelancer (Remote)<br>[Aug 22 - Jan 24]</p>
+                        <ul style="padding-left: 20px; margin-top: 30px; max-width: 75%;">
+                          <li style="text-align: left;"><strong>Solved</strong> advanced mathematics <strong>problems</strong> (Algebra, Trigonometry, Geometry, Probability, Statistics) with <strong>80%+ accuracy</strong>. </li>
+                          <li style="text-align: left;"><strong>Reviewed</strong> and graded solutions with <strong>75% accuracy</strong>, ensuring high-quality responses.</li>
+                          <li style="text-align: left;">Provided <strong>step-by-step solutions</strong> for students and learners, improving their understanding of mathematical concepts.</li>
+                          <li style="text-align: left;">Ensured <strong>high-quality responses</strong> by verifying and correcting computational errors, making mathematical explanations more comprehensive.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                    <!-- Qadri Group and NCRA -->
+                    <div class="about-containers" style="display: flex; justify-content: space-between;">
+                      <!-- Qadri Group -->
+                      <div class="details-container" style="display: flex; flex-direction: column; align-items: center; width: 48%;">
+                        <ul style="padding-left: 20px; margin-top: 25px;max-width: 95%;">
+                          <p style="text-align: left;"> </li>
+                        </ul>
+                        <a target="_blank">
+                          <img src="./assets/RIN logo.png" alt="RIN" class="icon" style="width: 300px; height: 30px;" />
+                        </a>
+                        <ul style="padding-left: 20px; margin-top: 25px;max-width: 95%;">
+                          <p style="text-align: left;"> </li>
+                        </ul>
+                        <h2 class="experience-sub-title" style="margin-bottom: 0;">Intern</h2>
+                        <p style="margin-top: 0;">Kandy, Sri Lanka<br>[Jul 23 - Sep 23]</p>
+                        <ul style="padding-left: 20px; margin-top: 30px;max-width: 95%;">
+                          <li style="text-align: left;">Gained <strong>hands-on experience</strong> in machine handling, working with welding, drilling, and other mechanical processes.</li>
+                          <li style="text-align: left;">Assisted in <strong>automobile maintenance</strong>, focusing on the brake system, engine diagnostics, and repair procedures.</li>
+                          <li style="text-align: left;">Learned and applied <strong>workshop management</strong> techniques, coordinating tools, equipment, and maintenance schedules.</li>
+                          <li style="text-align: left;"><strong>Worked with professional</strong> mechanics and engineers to troubleshoot and service various vehicle components, ensuring proper functionality.</li>
+                          <li style="text-align: left;">Developed a strong understanding of <strong>mechanical engineering principles</strong> and their practical applications in the <strong>automotive industry</strong>.</li>
+                        </ul>
+                      </div>
+
+
+                      <!-- NCRA -->
+                      <div class="details-container" style="display: flex; flex-direction: column; align-items: center; width: 48%;">
+                        <a href="https://ncra.org.pk/" target="_blank">
+                          <img src="./assets/ncra.png" alt="NCRA" class="icon" style="width: 130px; height: 100px;" />
+                        </a>
+                        <h2 class="experience-sub-title" style="margin-bottom: 0;">Intern - Robot Makers Lab</h2>
+                        <p style="margin-top: 0;">Islamabad, Pakistan<br>[Jul 22 - Sep 22]</p>
+                        <ul style="padding-left: 20px; margin-top: 30px;max-width: 95%;">
+                          <li style="text-align: left;">Designed and drafted 3D mechanical components and assemblies using <strong>SolidWorks</strong>, ensuring precise dimensions and structural integrity.</li>
+                          <li style="text-align: left;">Operated <strong>CNC machines</strong>, gaining experience in computer-controlled manufacturing and precision machining techniques.</li>
+                          <li style="text-align: left;">Worked with <strong>CO2 laser cutting</strong> and <strong>lathe machines</strong>, learning fabrication processes and material cutting techniques.</li>
+                          <li style="text-align: left;">Designed and fabricated <strong>PCB</strong> circuits, applying electronics knowledge from schematic <strong>design to hardware</strong> implementation.</li>
+                          <li style="text-align: left;"><strong>Collaborated</strong> with engineers and researchers on robotics projects, contributing to <strong>prototyping and testing</strong> of robotic systems.</li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </section>
+                <hr style="border-top: 1px solid black; width: 100%; margin-top: 120px; margin-bottom: 0px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- ########################################################################        Education         ################################################################################### -->
+                <section id="education">
+                  <div style="margin-top: 120px;">
+                    <h1 class="title">Education</h1>
+                    <p class="section__text__p1">Learning never exhausts the mind; it fuels innovation and growth!</p>
+                  </div>
+                  <div class="education-details-container" style="display: flex; flex-direction: column; gap: 20px;">
+
+                    <!-- University Name - Degree -->
+                    <div class="about-containers">
+                      <div class="details-container" style="display: flex; flex-direction: column; align-items: center;">
+                        <a href="https://nust.edu.pk/" target="_blank">
+                          <img src="./assets/nust.png" alt="NUST" class="icon" style="width: 300px; height: 100px;" />
+                        </a>
+                        <h2 class="education-sub-title" style="margin-bottom: 0;">BEng. Mechatronics Engineering</h2>
+                        <p style="margin-top: 0;">Islamabad, Pakistan<br>[Nov 21 - May 25]</p>
+                        <ul style="padding-left: 20px; margin-top: 30px; list-style-type: disc;">
+                          <li style="text-align: left;"><strong>Thesis</strong> (Final Year Project): Developed a Modular Self-Reconfigurable Robot <strong>(MSRR)</strong>, focusing on autonomous adaptability, modular design, and intelligent reconfiguration for <strong>real-world applications</strong>.</li>
+                          <li style="text-align: left;"><strong>Major Areas of Study</strong>: Robotics, Automation, System Design, Mechanical Design, Controls, Embedded Systems.</li>
+                          <li style="text-align: left;"><strong>Merit Scholar:</strong> Awarded the Allama Iqbal Scholarship (HEC) - <strong>100%</strong> Scholarship for outstanding performance.</li>
+                          <ul style="padding-left: 20px; margin-top: 25px;max-width: 95%;">
+                            <p style="text-align: left;"> Technical Achievements & Certifications</li>
+                          </ul>
+                          <li style="text-align: left;"><strong>Best Product Design Award</strong> [Dec 30, 2023] - Recognized for outstanding innovation and design efficiency in <strong>Hackathon (CEME)</strong>, a competitive engineering design challenge.</li>
+                          <li style="text-align: left;">Completion of <strong>PCB Designing and Manufacturing</strong> [Oct 2022] - Successfully completed training in PCB design and fabrication using Altium Designer, gaining expertise in schematic creation, board layout, and manufacturing processes.</li>
+                          <li style="text-align: left;"><strong>Python for Beginners</strong> [Aug 2022] - Completed a foundational Python programming course at the University of Moratuwa, Sri Lanka, covering data structures, algorithms, and automation scripting.</li>
+                          <ul style="padding-left: 20px; margin-top: 25px;max-width: 95%;">
+                            <p style="text-align: left;">Technical & Leadership Activities</li>
+                          </ul>
+                          <li style="text-align: left;"><strong>SolidWorks User Group</strong>, Islamabad [Since April 2023] - Graphics Team Member & Contributed to the community by sharing CAD modeling techniques, product design strategies, and visualization methods.</li>
+                          <li style="text-align: left;"><strong>Robotics and Automation Club</strong> [Since July 2022] - Unmanned Ground Vehicles (UGV) Team: Worked on developing autonomous ground robots, integrating sensors, motion control algorithms, and AI-based navigation.</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- University Name - Degree -->
+                    <div class="about-containers">
+                      <div class="details-container" style="display: flex; flex-direction: column; align-items: center;">
+                        <a href="https://www.linkedin.com/school/madina-central-college-madawala-kandy/" target="_blank">
+                          <img src="./assets/madeena logo.png" alt="Madeena" class="icon" style="width: 200px; height: 200px;" />
+                        </a>
+                        <h2 class="education-sub-title" style="margin-bottom: 0;">GCE Advanced Level (Physical Science Stream)</h2>
+                        <p style="margin-top: 0;">Kandy, Sri Lanka<br>[May 18 - Jan 21]</p>
+                        <ul style="padding-left: 20px; margin-top: 30px; list-style-type: disc;">
+                          <li style="text-align: left;">Studied <strong>Physics</strong>, <strong>Mathematics</strong>, <strong>Chemistry</strong>, and <strong>General English</strong> under the Physical Science stream, developing a strong foundation in analytical thinking, problem-solving, and scientific methodologies.</li>
+                          <li style="text-align: left;">Achieved <strong>2B</strong> & <strong>2C</strong> in the GCE Advanced Level examinations, demonstrating excellence in science and mathematics.</li>
+                          <ul style="padding-left: 20px; margin-top: 25px;max-width: 95%;">
+                            <p style="text-align: left;">Extracurricular Activities & Achievements</li>
+                          </ul>
+                          <li style="text-align: left;">Participated in an <strong>astronomical camp</strong>, engaging in observational astronomy, space science discussions, and <strong>hands-on activities</strong> related to celestial phenomena.</li>
+                          <li style="text-align: left;"><strong>Led</strong> and <strong>managed</strong> a <strong>Science Day event</strong>, coordinating experiments, demonstrations, and interactive sessions to promote STEM education among students.</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- University Name - Degree -->
+                    <div class="about-containers">
+                      <div class="details-container" style="display: flex; flex-direction: column; align-items: center;">
+                        <a href="https://www.facebook.com/AkuranaZahiraCollege/" target="_blank">
+                          <img src="./assets/zahira logo.png" alt="Zahira" class="icon" style="width: 200px; height: 200px;" />
+                        </a>
+                        <h2 class="education-sub-title" style="margin-bottom: 0;">GCE Ordinary Level</h2>
+                        <p style="margin-top: 0;">Kandy, Sri Lanka<br>[Jan 07 - Dec 17]</p>
+                        <ul style="padding-left: 20px; margin-top: 30px; list-style-type: disc;">
+                          <li style="text-align: left;"><strong>Completed GCE Ordinary Level</strong> education in the Bilingual Medium (English & Tamil), excelling in core subjects.</li>
+                          <li style="text-align: left;">Achieved <strong>5A</strong>, <strong>2B</strong>, and <strong>2C</strong> in the GCE O/L examinations, showcasing strong academic performance.</li>
+                          <ul style="padding-left: 20px; margin-top: 25px;max-width: 95%;">
+                            <p style="text-align: left;">Leadership & Extracurricular Activities</li>
+                          </ul>
+                          <li style="text-align: left;">Served as a <strong>Prefect</strong>, actively contributing to the <strong>Discipline Committee</strong>, maintaining order and ensuring a positive learning environment within the school.</li>
+                          <li style="text-align: left;">Assisted in organizing <strong>school events</strong>, managing student activities, and upholding school regulations.</li>
+                          <li style="text-align: left;">Member of a <strong>village welfare association</strong>, engaging in community development projects, social welfare activities, and youth empowerment initiatives.</li>
+                          <li style="text-align: left;">Worked on initiatives <strong>promoting education</strong>, <strong>healthcare</strong>, and <strong>environmental awareness</strong> in the local community.</li>
+                          <li style="text-align: left;"><strong>Captain</strong> (School Badminton Team) - Got <strong>2nd Runner up</strong> in <strong>provincial level</strong> Badminton Tournament</li>
+                          <li style="text-align: left;">Member of <strong>School Band team</strong>, <strong>Foot ball team</strong></li>
+                        </ul>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </section>
+                <hr style="border-top: 1px solid black; width: 100%; margin-top: 120px; margin-bottom: 0px;">
+
+
+
+
+
+
+
+
+
+
+
+            <!-- ########################################################################        Projects         ################################################################################### -->
+            <section id="projects">
+              <div style="margin-top: 120px;">
+                <h1 class="title">Projects</h1>
+                <p class="section__text__p1">
+                  Where ideas take shape and innovation comes to life!
+                </p>
+                <div class="project-filter-container" style="text-align: center; margin-top: 30px;">
+                  <span>
+                    <button class="btn btn-color-2 project-btn active" onclick="filterProjects('all')">All</button>
+                    <button class="btn btn-color-2 project-btn" onclick="filterProjects('robotics')">Robotics</button>
+                    <button class="btn btn-color-2 project-btn" onclick="filterProjects('mechanical')">Mechanical</button>
+                    <button class="btn btn-color-2 project-btn" onclick="filterProjects('software')">Software</button>
+                    <button class="btn btn-color-2 project-btn" onclick="filterProjects('electronics')">Electronics</button>
+                    <button class="btn btn-color-2 project-btn" onclick="filterProjects('other')">Other</button>
+                  </span>
+                </div>
+              </div>
+            
+              
+              <div class="projects-grid">
+
+                  <!-- msrr -->
+                <div class="project-card" data-category="robotics" onclick="showPopup('ModularSelfReconfigurableRobot')">
+                  <div class="project-border">
+                    <img src="./assets/msrr.png" alt="Modular Self Reconfigurable Robot (MSRR)" class="project-img" style="width: 100%; height: 80%; object-fit: contain; padding-top: 5px;"/>
+                    <h3 class="project-title">Modular Self Reconfigurable Robot (MSRR)</h3>
+                    <p class="project-text">Sep 24 - Present</p>
+                  </div>
+                </div>
+
+                <!-- human arm -->
+                <div class="project-card" data-category="mechanical" onclick="showPopup('humanControlledMechanicalArm')">
+                  <div class="project-border">
+                    <img src="./assets/arm.jpeg" alt="Human Controlled Mechanical Arm" class="project-img" style="width: 78%; height: 58%; object-fit: contain; padding-top: 5px;"/>
+                    <h3 class="project-title">Human Controlled Mechanical Arm</h3>
+                    <p class="project-text">Dec 24 - Jan 25</p>
+                  </div>
+                </div>
+
+                <!-- 4 arm -->
+                <div class="project-card" data-category="robotics" onclick="showPopup('4-ArmedPick&PlaceRobot')">
+                  <div class="project-border">
+                    <img src="./assets/4 arm bot.jpeg" alt="4-Armed Pick & Place Robot" class="project-img" style="width: 100%; height: 80%; object-fit: contain; padding-top: 5px;"/>
+                    <h3 class="project-title">4-Armed Pick & Place Robot</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+                <!-- watch -->
+                <div class="project-card" data-category="mechanical" onclick="showPopup('oldMechanicalPocketWatch')">
+                  <div class="project-border">
+                    <img src="./assets/watch.png" alt="Old Mechanical Pocket Watch" class="project-img" style="width: 85%; height: 85%; object-fit: contain; padding-top: 5px;"/>
+                    <h3 class="project-title">Old Mechanical Pocket Watch</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+                <!-- nerc -->
+                <div class="project-card" data-category="robotics" onclick="showPopup('NERC-Pick&PlaceBot')">
+                  <div class="project-border">
+                    <ul style="padding-left: 20px; margin-top: 80px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <img src="./assets/nerc.jpeg" alt=" NERC- Pick & Place Bot" class="project-img" style="width: 95%; height: 150%; object-fit: contain; padding-top: 5px;"/>
+                    <ul style="padding-left: 20px; margin-top: 80px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <h3 class="project-title"> NERC- Pick & Place Bot</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+
+                <!-- lego -->
+                <div class="project-card" data-category="robotics" onclick="showPopup('fruitPickerRobot')">
+                  <div class="project-border">
+                    <ul style="padding-left: 20px; margin-top: 30px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <img src="./assets/lego.jpg" alt="Snail Bot - Fruit Picker Robot" class="project-img" style="width: 100%; height: 100%; object-fit: contain; padding-top: 5px;"/>
+                    <ul style="padding-left: 20px; margin-top: 30px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <h3 class="project-title">Snail Bot - Fruit Picker Robot</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+                <!-- ship -->
+                <div class="project-card" data-category="mechanical" onclick="showPopup('modellingOfOilShip')">
+                  <div class="project-border">
+                    <ul style="padding-left: 20px; margin-top: 60px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <img src="./assets/ship.png" alt="Modelling Of Oil Ship" class="project-img" style="width: 100%; height: 100%; object-fit: contain; padding-top: 5px;"/>
+                    <ul style="padding-left: 20px; margin-top: 65px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <h3 class="project-title">Modelling Of Oil Ship</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+                <!-- traffic light -->
+                <div class="project-card" data-category="electronics" onclick="showPopup('4-wayTrafficLightController')">
+                  <div class="project-border">
+                    <ul style="padding-left: 20px; margin-top: 20px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <img src="./assets/traffic light.jpeg" alt="4 - Way Traffic LightController" class="project-img" style="width: 100%; height: 100%; object-fit: contain; padding-top: 5px;"/>
+                    <ul style="padding-left: 20px; margin-top: 35px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <h3 class="project-title">4 - Way Traffic LightController</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+
+                <!-- 8051 -->
+                <div class="project-card" data-category="electronics" onclick="showPopup('8051GenericBoard')">
+                  <div class="project-border">
+                    <ul style="padding-left: 20px; margin-top: 40px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <img src="./assets/8051.jpeg" alt="8051 Generic Board" class="project-img" style="width: 100%; height: 100%; object-fit: contain; padding-top: 5px;"/>
+                    <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <h3 class="project-title">8051 Generic Board</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+
+                <!-- rfid -->
+                <div class="project-card" data-category="electronics" onclick="showPopup('RFID_AccessedControlSystem')">
+                  <div class="project-border">
+                    <ul style="padding-left: 20px; margin-top: 35px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <img src="./assets/rfid.jpeg" alt="RFID Accessed Control System" class="project-img" style="width: 100%; height: 100%; object-fit: contain; padding-top: 5px;"/>
+                    <ul style="padding-left: 20px; margin-top: 45px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <h3 class="project-title">RFID Accessed Control System</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+
+                <!-- vision system -->
+                <div class="project-card" data-category="software" onclick="showPopup('RoboticVisionSystemForMSRR')">
+                  <div class="project-border">
+                    <ul style="padding-left: 40px; margin-top: 50px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <img src="./assets/vision system.png" alt="Robotic Vision System for MSRR" class="project-img" style="width: 100%; height: 100%; object-fit: contain; padding-top: 5px;"/>
+                    <ul style="padding-left: 20px; margin-top: 65px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <h3 class="project-title">Robotic Vision System for MSRR</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+
+                <!-- digi care -->
+                <div class="project-card" data-category="software" onclick="showPopup('Digi_Care')">
+                  <div class="project-border">
+                    <ul style="padding-left: 40px; margin-top: 30px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <img src="./assets/digi care.jpeg" alt="Digi+Care (C++ Application)" class="project-img" style="width: 100%; height: 100%; object-fit: contain; padding-top: 5px;"/>
+                    <ul style="padding-left: 20px; margin-top: 45px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <h3 class="project-title">Digi+Care (C++ Application)</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+
+                <!-- materials -->
+                <div class="project-card" data-category="other" onclick="showPopup('Materials&ManufacturingProcessesproject')">
+                  <div class="project-border">
+                    <ul style="padding-left: 40px; margin-top: 40px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <img src="./assets/materials.png" alt="Materials & Manufacturing Processes project" class="project-img" style="width: 65%; height: 65%; object-fit: contain; padding-top: 5px;"/>
+                    <ul style="padding-left: 20px; margin-top: 45px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <h3 class="project-title">Materials & Manufacturing Processes project</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+
+                <!-- generator -->
+                <div class="project-card" data-category="other" onclick="showPopup('ElectricMiniGenerator')">
+                  <div class="project-border">
+                    <ul style="padding-left: 40px; margin-top: 40px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <img src="./assets/generator.jpeg" alt="Electric Mini Generator" class="project-img" style="width: 80%; height: 80%; object-fit: contain; padding-top: 5px;"/>
+                    <ul style="padding-left: 20px; margin-top: 45px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <h3 class="project-title">Electric Mini Generator</h3>
+                    <p class="project-text">Sep 23 - Aug 24</p>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+              
+              <!-- Popup for Case Study for msrr -->
+              <div class="popup-overlay" id="ModularSelfReconfigurableRobot">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('ModularSelfReconfigurableRobot')">&times;</span>
+                  <h2>Modular Self Reconfigurable Robot (MSRR)</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Designed a 300-400g, 5-inch self-reconfigurable robot with ESP32, IMU, and ESP32-CAM for autonomous systems for multi-tasking.</li>
+                    <li style="text-align: left;">Integrated N42 neodymium magnets for robot kinematics and motion planning, enabling seamless reconfiguration.</li>
+                    <li style="text-align: left;">Optimized for automation, disaster response, space exploration and assistive robotics, leveraging sensor fusion and SLAM (Simultaneous 
+                      Localization and Mapping) to enhance versatility.</li>
+                    <li style="text-align: left;">Achieved a 30-50% reduction in operational costs and a 50% weight reduction, improving efficiency and scalability.</li> 
+
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+              
+              <!-- Popup for Case Study for human arm-->
+              <div class="popup-overlay" id="humanControlledMechanicalArm">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('humanControlledMechanicalArm')">&times;</span>
+                  <h2>Human Controlled Mechanical Arm</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Fabricated a wood & metal mechanical arm replicating human movements, modeled in SolidWorks, analyzed in ANSYS for structural 
+                      integrity, and tested in ROS2 and Gazebo.</li>
+                
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+      
+
+              <!-- Popup for Case Study for 4 arm-->
+              <div class="popup-overlay" id="4-ArmedPick&PlaceRobot">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('4-ArmedPick&PlaceRobot')">&times;</span>
+                  <h2>4-Armed Pick & Place Robot</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Designed a 10"x10" 4-DOF autonomous robot, 3D-printed with PLA, using high-torque encoder motors and a custom H-bridge to lift 4 
+                      objects with PID control, improving efficiency by 40%. </li>
+                    <li style="text-align: left;">Integrated IR, ultrasonic sensors, and the Grass Wire algorithm for autonomous navigation. </li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Popup for Case Study for watch-->
+              <div class="popup-overlay" id="oldMechanicalPocketWatch">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('oldMechanicalPocketWatch')">&times;</span>
+                  <h2>Old Mechanical Pocket Watch</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Modeled an intricate old mechanical watch, showcasing comprehensive understanding of CAD principles. Earned
+                      an A grade in the course for meticulous attention to detail & precision in modeling.</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+
+              <!-- Popup for Case Study for nerc-->
+              <div class="popup-overlay" id="NERC-Pick&PlaceBot">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('NERC-Pick&PlaceBot')">&times;</span>
+                  <h2>NERC- Pick & Place Bot</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Engineered a pick and place robot from scratch for the National Engineering Robotics Competition, adept at
+                      sequential object handling in agriculture.</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Popup for Case Study for lego-->
+              <div class="popup-overlay" id="fruitPickerRobot">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('fruitPickerRobot')">&times;</span>
+                  <h2>Snail Bot - Fruit Picker Robot</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Programmed an EV3 LEGO robot using fundamental programming concepts to simulate picking fruits from trees.
+                      Developed algorithms for object recognition, navigation, & precise handling.</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Popup for Case Study for ship-->
+              <div class="popup-overlay" id="modellingOfOilShip">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('modellingOfOilShip')">&times;</span>
+                  <h2>Modelling Of Oil Ship</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Produced detailed 3D models & 2D sketches of a significant oil ship using AutoCAD. Earned an A grade for
+                      meticulous execution and comprehensive understanding of engineering drawing principles.</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Popup for Case Study for traffic light-->
+              <div class="popup-overlay" id="4-wayTrafficLightController">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('4-wayTrafficLightController')">&times;</span>
+                  <h2>4 - Way Traffic LightController</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Developed a functional four-way traffic light control system using 555 timer ICs, 4017 counter ICs, & BJTs,
+                      incorporating simulation, PCB design, & practical circuit implementation for traffic flow regulation.</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Popup for Case Study for 8051-->
+              <div class="popup-overlay" id="8051GenericBoard">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('8051GenericBoard')">&times;</span>
+                  <h2>8051 Generic Board</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Developed a custom 8051-based board from scratch with modes for quadratic equation solving, series display,
+                      temperature conversion, & PWM output, using assembly language & interfacing with dip switch boards.</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Popup for Case Study for rfid-->
+              <div class="popup-overlay" id="RFID_AccessedControlSystem">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('RFID_AccessedControlSystem')">&times;</span>
+                  <h2>RFID Accessed Control System</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Developed & implemented an RFID-based attendance system using ESP8266, RFID modules, & Google Sheets for
+                      real-time data storage & access, improving efficiency & security in attendance tracking.</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Popup for Case Study for vision system-->
+              <div class="popup-overlay" id="RoboticVisionSystemForMSRR">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('RoboticVisionSystemForMSRR')">&times;</span>
+                  <h2>Robotic Vision System for MSRR</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Developed a robotic vision system using YOLOv8 for object detection & segmentation, training the model with
+                      custom datasets to enhance modular robot performance in real-time environments.</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Popup for Case Study for digi care-->
+              <div class="popup-overlay" id="Digi_Care">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('Digi_Care')">&times;</span>
+                  <h2>Digi+Care (C++ Application)</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Utilizing OOP & Data Structures to provide personalized health management, including symptom tracking, disease
+                      solutions, diet plans, & exercise tips.</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Popup for Case Study for materials-->
+              <div class="popup-overlay" id="Materials&ManufacturingProcessesproject">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('Materials&ManufacturingProcessesproject')">&times;</span>
+                  <h2>Materials & Manufacturing Processes project</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Analyzed material properties & fatigue through experiments on plastic, ductile, brittle, & polymer materials.
+                      Developed energy storage devices (Rolled foil capacitor), & recycling methods (Paper recycling).</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+              <!-- Popup for Case Study for generator-->
+              <div class="popup-overlay" id="ElectricMiniGenerator">
+                <div class="popup-content">
+                  <span class="close-btn" onclick="closePopup('ElectricMiniGenerator')">&times;</span>
+                  <h2>Electric Mini Generator</h2>
+                  <ul style="padding-left: 20px; margin-top: 50px;max-width: 95%;">
+                    <p style="text-align: left;"> </li>
+                  </ul>
+                    <li style="text-align: left;">Designed & constructed a functional miniature electric generator which can produce few voltages using recycled
+                      materials, demonstrating proficiency in energy conversion principles, & electrical components.</li>
+                    
+                  <!-- GitHub and Demo Buttons inside the Overlay -->
+                  <!-- <div class="project-buttons">
+                    <button class="btn btn-github" onclick="location.href='https://github.com/yourusername/assistive-feeding-system'">GitHub</button>
+                    <button class="btn btn-demo" onclick="location.href='https://demo.com/assistive-feeding-system'">Demo</button>
+                  </div> -->
+                </div>
+              </div>
+
+
+
+
+
+              
+
+
+
+
+
+
+      
+             
+            </section>
+                <hr style="border-top: 1px solid black; width: 100%; margin-top: 120px; margin-bottom: 0px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            <!-- ########################################################################        Publications         ################################################################################### -->
+            <section id="publications">
+              <div style="margin-top: 120px;">
+                <h1 class="title">Publications</h1>
+                <p class="section__text__p1">Where knowledge meets innovation on paper!</p>
+              </div>
+              <div class="publications-details-container" style="display: flex; flex-direction: column; gap: 50px;">
+                
+                <div class="about-containers">
+                  <div class="details-container" style="display: flex; flex-direction: column; align-items: center;">
+                    <h2 class="publications-sub-title" style="margin-bottom: 50; text-align: center;">FLI-ME: A novel approach to lunar exploration using Flying Imagers</h2>
+                    <ul style="padding-left: 20px; margin-top: 30px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <p style="margin-top: 0; text-align: center;">Muhammad Rizwan Mughal, Zach Ioannou, Louis Burtz, Hassan Elahi, <strong>Mohamed Nalim*</strong>, Mohib Ahmed Malik</p>
+                    <p style="margin-top: 0; text-align: center;">75th International Astronautical Congress (IAC), Milan, Italy</p>
+                    <p style="margin-top: 0; text-align: center;">14-18 October 2024</p>
+                    <ul style="padding-left: 20px; margin-top: 10px;max-width: 95%;">
+                      <p style="text-align: left;"> </li>
+                    </ul>
+                    <p><a href="https://iafastro.directory/iac/paper/id/83782/summary/" style="margin-top: 0; text-align: center;">Paper code: <strong>IAC-24,A3,IP,212,x83782</strong></a></p>
+                  </div>
+                </div>
+                
+              </div>
+            </section>
+            <hr style="border-top: 1px solid black; width: 100%; margin-top: 120px; margin-bottom: 0px;">
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- ########################################################################        Contact         ################################################################################### -->
+                <section id="contact">
+                  <div style="margin-top: 120px;"></div>
+                    <h1 class="title">Contact Me</h1>
+                    <p class="section__text__p1">Let's connect and create something amazing!</p>
+                  </div>
+                  <div class="contact-info-upper-container">
+                    <div class="contact-info-container">
+                      <img
+                        src="./assets/email.png"
+                        alt="Email icon"
+                        class="icon contact-icon email-icon"
+                      />
+                      <p><a href="mailto:engr.nalim@gmail.com">engr.nalim@gmail.com</a></p>
+                    </div>
+                    <div class="contact-info-container">
+                      <img
+                        src="./assets/linkedin.png"
+                        alt="LinkedIn icon"
+                        class="icon contact-icon"
+                      />
+                      <p><a href="https://www.linkedin.com/in/mohamed-nalim" target="_blank">LinkedIn</a></p>
+                    </div>
+                    <div class="contact-info-container">
+                      <img
+                        src="./assets/phone.png"
+                        alt="Phone icon"
+                        class="icon contact-icon"
+                      />
+                      <p><a href="tel:+94778188175">+94 77 8188175</a></p>
+                    </div>
+                  </div>
+                </section>
+
+
+
+
+
+
+
+            <!-- ################################################################################################################################################################################ -->
+                <footer>
+                  <!-- <nav>
+                    <div class="nav-links-container">
+                      <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                      </ul>
+                    </div>
+                  </nav> -->
+                  <p>Copyright &#169; 2025 Mohamed Nalim. All Rights Reserved.</p>
+                </footer>
+                <script src="script.js"></script>
+              </body>
+            </html>
+            
